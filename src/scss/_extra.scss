@@ -1,0 +1,22 @@
+@keyframes pulse {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+#hi {
+	position: absolute;
+	top: 0.5em;
+	right: 1em;
+	color: #ff35fd;
+	animation: pulse 0.7s infinite;
+	font-weight: bold;
+}
